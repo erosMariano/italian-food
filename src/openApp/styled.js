@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
+    overflow: hidden;
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
@@ -10,7 +11,7 @@ export const Main = styled.main`
     text-align: center;
     position: relative;
     height: 100vh;
-
+    margin-top: -30px;
     justify-content: center;
 
     .folha-direita{
