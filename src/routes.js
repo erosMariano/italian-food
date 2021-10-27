@@ -2,7 +2,7 @@ import React from 'react'
 import {Route, BrowserRouter} from 'react-router-dom';
 
 import OpenApp from "./openApp";
-import Cardapio from './cardapio';
+import Cardapio from './views/cardapio';
 
 const Routes = () => {
     return(
